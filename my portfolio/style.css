@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+}
+
+.container li{
+    display: inline;
+}
+
+.container li a{
+    padding: 0px 100px;
+    color: beige;
+    text-decoration: none;
+}
