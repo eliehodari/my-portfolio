@@ -1,9 +1,10 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: darkgray;
+    background-color: black;
 }
-
+ 
+  /* NAV STYLING */
 header{
     background-color: black;
     text-align: center;
@@ -17,7 +18,83 @@ header{
 }
 
 .container li a{
-    padding: 0px 100px;
+    padding: 0px 150px;
     color: beige;
     text-decoration: none;
+}
+
+
+/* STYLING MAIN */
+.me{
+    background-color: black;
+    color: aliceblue;
+    height: 53vh;
+}
+.me span{
+    color:gray;
+}
+.me-1{
+    margin-left: 3%;
+    margin-top: 15%;
+}
+.me-1 h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.image{
+    right: 45%;
+    height: 80%;
+    /* position: absolute; */
+    right: 100px;
+}
+.image img{
+    height: 70%;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    width: 40%;
+}
+
+/* STYLE EDUCATION BACKGROUND */
+#schools{
+    color: white;
+    margin: 10px;
+    height: 96vh;
+}
+#schools h1{
+    text-align: center;
+}
+.school{
+    width: 20%;
+    margin: 30px;
+}
+.xl-2{
+    margin-top: -20px;
+}
+.xl2-p{
+    margin-top: -30px;
+}
+.xuls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* EXPERIENCE WITH PROJECTS */
+#project{
+    color: white;
+}
+#project h1{
+    text-align: center;
+}
+.experience{
+    display: flex;
+}
+.exp{
+    width: 60%;
+}
+.exp-1{
+    margin-left: 7%;
+}
+.exp-2{
+    margin-left: 10%;
 }
